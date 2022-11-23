@@ -35,5 +35,8 @@
   "lint-staged": {
     "*": "prettier --ignore-unknown --cache --write",
     "*.{ts,tsx}": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "re2": "^1.17.7"
   }
 }
