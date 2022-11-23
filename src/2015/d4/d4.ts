@@ -1,7 +1,7 @@
 import crypto from "crypto";
 
 function findMatch(input: string, regex: RegExp) {
-  for (let i = 0; i < 10000000; i += 1) {
+  for (let i = 0; i < 10_000_000; i += 1) {
     const hash = crypto
       .createHash("md5")
       .update(input + i.toString())
