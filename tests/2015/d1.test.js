@@ -1,4 +1,4 @@
-import { part1, part2 } from "../../../target/2015/d1/d1.js";
+import { part1, part2 } from "../../target/2015/d1/d1.js";
 
 test("part1", () => {
   expect(part1("(())")).toBe(0);

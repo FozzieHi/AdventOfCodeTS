@@ -1,4 +1,4 @@
-import { part1, part2 } from "../../../target/2015/d2/d2.js";
+import { part1, part2 } from "../../target/2015/d2/d2.js";
 
 test("part1", () => {
   expect(part1(2, 3, 4)).toBe(58);
