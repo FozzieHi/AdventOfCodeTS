@@ -13,6 +13,7 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:@typescript-eslint/strict",
         "plugin:jest/recommended",
         "airbnb-base",
         "airbnb-typescript/base",
@@ -20,6 +21,14 @@
       ],
       "parserOptions": {
         "project": ["./tsconfig.json"]
+      },
+      "rules": {
+        "@typescript-eslint/array-type": [
+          "warn",
+          {
+            "default": "generic"
+          }
+        ]
       }
     }
   ]
