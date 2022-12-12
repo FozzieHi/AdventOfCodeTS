@@ -37,6 +37,6 @@
     "*.{ts,tsx}": "eslint --cache --fix"
   },
   "dependencies": {
-    "re2": "^1.17.8"
+    "re2": "^1.18.0"
   }
 }
